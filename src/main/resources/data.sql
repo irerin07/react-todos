@@ -1,0 +1,10 @@
+insert into todo (id, title, deadline, completed) value (1, '청소하기', '2019-05-28 23:59:59', 0);
+insert into todo (id, title, regdate, deadline, completed) value (2, '빨래하기','2019-11-23 23:59:59', '2019-12-28 23:59:59', 0);
+insert into todo (id, title, deadline, completed) value (3, '쇼핑하기', '2020-05-28 23:59:59', 0);
+insert into todo (id, title, deadline, completed) value (4, '공부하기', '2020-05-28 23:59:59', 0);
+insert into todo (id, title, deadline, completed) value (5, '자랑하기', '2020-05-28 23:59:59', 0);
+insert into todo (id, title, completed) value (6, '독서하기', 1);
+insert into todo (id, title, deadline, completed) value (7, '조용하기', '2019-05-28 23:59:59', 0);
+insert into todo (id, title, deadline, completed) value (8, '강의하기', '2019-05-28 23:59:59', 1);
+insert into todo (id, title, regdate, completed) value (9, '산책하기','2019-11-12 23:59:59', 1);
+insert into todo (id, title, deadline, completed) value (10, '암튼하기', '2019-05-28 23:59:59', 1);
