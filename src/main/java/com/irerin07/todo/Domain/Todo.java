@@ -30,4 +30,8 @@ public class Todo {
         completed = 0;
     }
 
+    public Todo(long l, String a_todo) {
+        this.id = l;
+        this.title = a_todo;
+    }
 }
