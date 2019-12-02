@@ -22,9 +22,7 @@ public class TodoServiceImpl implements TodoService {
 
     @Override
     public List<Todo> getTasks() {
-        System.out.println("getListsAll()");
         List<Todo> lists = todoRepository.findAll();
-        System.out.println(lists.isEmpty());
 
         return lists;
     }
