@@ -1,4 +1,6 @@
 import React, { useState, useCallback } from 'react';
+import { MdDone } from 'react-icons/md';
+import './TodoInsert.scss';
 
 const TodoInsert = ({ onInsert }) => {
     const [value, setValue] = useState('');
@@ -28,7 +30,7 @@ const TodoInsert = ({ onInsert }) => {
                 value={value}
                 onChange={onChange}
             />
-            <button type="submit">추가
+            <button type="submit"> <MdDone />
             </button>
         </form>
     );

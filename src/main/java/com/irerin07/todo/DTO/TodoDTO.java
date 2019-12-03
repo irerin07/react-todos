@@ -1,7 +1,9 @@
 package com.irerin07.todo.DTO;
 
+import com.irerin07.todo.Repository.TodoRepository;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Date;
 
