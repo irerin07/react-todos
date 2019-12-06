@@ -13,7 +13,7 @@ const TodoInsert = ({ onInsert }) => {
         e => {
             console.log(value);
             if (value === '' || value === null || value.length <= 0) {
-                alert('no message inserted');
+                alert('입력값이 없습니다.');
                 e.preventDefault();
             } else {
                 onInsert(value);
