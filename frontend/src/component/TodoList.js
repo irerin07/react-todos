@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import { List } from 'react-virtualized';
-import TodoListItem from './TodoListItem.scss';
+import TodoListItem from './TodoListItem';
 import './TodoList.scss';
 
 const TodoList = ({ todos, onRemove, onToggle }) => {
